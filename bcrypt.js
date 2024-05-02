@@ -1,7 +1,6 @@
 'use strict';
 
-var path = require('path');
-var bindings = require('node-gyp-build')(path.resolve(__dirname));
+var bindings = require("./lib/binding/napi-v3/bcrypt_lib.node");
 
 var crypto = require('crypto');
 
