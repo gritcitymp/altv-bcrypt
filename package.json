@@ -18,14 +18,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/gritcitymp/altv-bcrypt"
+        "url": "https://github.com/gritcitymp/altv-bcrypt.git"
     },
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/gritcitymp/altv-bcrypt/issues"
     },
     "scripts": {
-        "install": "node-pre-gyp install --fallback-to-build"
+        "install": "node-pre-gyp install"
     },
     "dependencies": {
         "@mapbox/node-pre-gyp": "^1.0.11",
